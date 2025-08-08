@@ -1,0 +1,78 @@
+/* ==========================
+   General Styles
+   ========================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ==========================
+   Header
+   ========================== */
+.site-header {
+  background-color: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 20px; /* Box Model: padding inside header */
+  margin-bottom: 15px; /* Box Model: space after header */
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+/* ==========================
+   Navigation
+   ========================== */
+.navigation {
+  background-color: #004d99;
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px; /* space between links */
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================
+   Main Content
+   ========================== */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card Demonstrating Box Model */
+.card {
+  background-color: white;
+  border: 2px solid #0066cc; /* Box Model: border */
+  margin-bottom: 20px;       /* Box Model: margin */
+  padding: 15px;             /* Box Model: padding */
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 0; /* Remove extra space at top */
+}
+
+/* ==========================
+   Footer
+   ========================== */
+.site-footer {
+  background-color: #004d99;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
